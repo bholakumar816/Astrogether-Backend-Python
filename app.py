@@ -11,6 +11,13 @@ def page_not_found(error):
         "message": "Wrong request method / route"
     })
 
+@app.route('/',methods=["GET"])
+def home():
+    return jsonify({
+        "status": 404,
+        "message": "Wrong request method"
+    })
+
 @app.route('/',methods=["POST"])
 def index():
     if request.method == 'POST':
