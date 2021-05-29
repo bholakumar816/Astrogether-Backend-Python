@@ -2,7 +2,7 @@ import swisseph as swe
 from astro.geoname import search
 import pytz, datetime, math
 
-swe.set_ephe_path("./ephe")
+swe.set_ephe_path("ephe")
 
 
 class Calculator:
