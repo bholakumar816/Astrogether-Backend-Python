@@ -23,7 +23,6 @@ def index():
     if request.method == 'POST':
         try:
             req_data = request.json
-            print(req_data)
             if not req_data == None:
                 _name = req_data.get('name','') 
                 _year = req_data.get('year') 

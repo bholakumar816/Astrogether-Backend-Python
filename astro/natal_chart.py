@@ -1,8 +1,10 @@
 import swisseph as swe
 from astro.geoname import search
 import pytz, datetime, math
+import os
 
-swe.set_ephe_path("ephe")
+MYDIR = os.path.dirname(__file__)
+swe.set_ephe_path(os.path.join(MYDIR,"ephe"))
 
 
 class Calculator:
