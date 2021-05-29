@@ -4,6 +4,7 @@ import pytz, datetime, math
 import os
 
 MYDIR = os.path.dirname(__file__)
+print("file path : ", MYDIR)
 swe.set_ephe_path(os.path.join(MYDIR,"ephe"))
 
 
