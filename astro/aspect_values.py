@@ -62,6 +62,7 @@ aspects_points = {
     },
     "Sun-Saturn": {
         Sextile: 3,
+        Trine: 3,
         Conjunction: -3,
         Square: -3,
         Opposition: -3
@@ -321,9 +322,7 @@ aspects_points = {
         Semisextile: 1
     },
     "Mercury-South Node": {
-        Conjunction: 1,
         Square: 1,
-        Opposition: 1,
         Quincunx: 1,
         Sextile: 1,
         Trine: 1,
@@ -417,11 +416,9 @@ aspects_points = {
         Opposition: 2,
     },
     "Venus-South Node": {
-        Conjunction: 2,
         Sextile: 2,
         Trine: 2,
-        Square: 2,
-        Opposition: 2,
+        Square: 2
     },
     "Venus-Sun/Moon": {
         Conjunction: 3,
@@ -494,11 +491,9 @@ aspects_points = {
         Opposition: 1,
     },
     "Mars-South node": {
-        Conjunction: 1,
         Sextile: 1,
         Trine: 1,
         Square: 1,
-        Opposition: 1,
     },
     "Mars-Sun/Moon": {
         Conjunction: 3,
@@ -515,9 +510,8 @@ aspects_points = {
     },
     "Jupiter-Saturn": {
         Conjunction: 1,
-        Sextile: 1,
         Trine: 1,
-        Sextile: -2,
+        Sextile: 1,
         Opposition: -2,
         Square: -2
     },
@@ -556,11 +550,9 @@ aspects_points = {
         Opposition: 2
     },
     "Jupiter-South Node": {
-        Conjunction: 1,
         Sextile: 1,
         Trine: 1,
         Square: 1,
-        Opposition: 1,
     },
     "Jupiter-North Node": {
         Conjunction: 1,
