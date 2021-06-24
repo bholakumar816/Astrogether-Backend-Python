@@ -56,22 +56,11 @@ class Calculator:
         return f"Astrological data for: {self.name}, {self.utc} UTC"
 
     def transform_minutes(self, position):
-        # y = position * 3600
-        # x = 60 
-        # minutes = math.floor(y/x)
-        # reminder = y % x
-        # deg = math.floor(minutes/x)
-        # if deg < 0:
-        #     minutes = minutes + 60
-        # if minutes < 10 : 
-        #     minutes = minutes * 10 / 1000
-        # elif minutes >= 10:
-        #     minutes /= 100
-        TWOPLACES = Decimal(10) ** -2
         minutes = divmod(position * 3600, 60)[0]
         deg, minutes = divmod(minutes, 60)
+        # print(deg,minutes);
         if minutes < 10:
-            minutes =  minutes * 10 / 1000
+            minutes = minutes * 10 / 1000
         if minutes >= 10:
             minutes /= 100
         return deg + minutes
